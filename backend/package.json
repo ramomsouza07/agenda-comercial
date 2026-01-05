@@ -23,7 +23,11 @@
     "fastify": "^5.6.2",
     "fastify-type-provider-zod": "^6.1.0",
     "prisma": "^6.19.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "zod": "^4.3.5"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
